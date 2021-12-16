@@ -1,0 +1,66 @@
+<cluster>
+    <nodo>
+        <nombre>Nodo1</nombre>
+        <direccion>192.168.1.1</direccion>
+        <maquina>
+            <nombre>W1</nombre>
+            <so>Windows10</so>
+            <interfaz>
+                <ip>192.168.1.2</ip>
+                <mac>(Numero largo aleatorio)</mac>
+            </interfaz>
+            <interfaz>
+                <ip>192.168.1.3</ip>
+                <mac>(Numero largo aleatorio2)</mac>
+            </interfaz>
+        </maquina>
+        <maquina>
+            <nombre>U1</nombre>
+            <so>Ubuntu20.04</so>
+            <interfaz>
+                <ip>192.168.1.4</ip>
+                <mac>(Numero largo aleatorio3)</mac>
+            </interfaz>
+            <interfaz>
+                <ip>192.168.1.5</ip>
+                <mac>(Numero largo aleatorio4)</mac>
+            </interfaz>
+        </maquina>
+    </nodo>
+    <nodo>
+        <nombre>Nodo2</nombre>
+        <direccion>192.168.2.1</direccion>
+        <maquina>
+            <nombre>W2</nombre>
+            <so>Windows10</so>
+        </maquina>
+        <maquina>
+            <nombre>U2</nombre>
+            <so>Ubuntu20.04</so>
+        </maquina>
+    </nodo>
+    <nodo>
+        <nombre>Nodo3</nombre>
+        <direccion>192.168.3.1</direccion>
+        <maquina>
+            <nombre>W3</nombre>
+            <so>Windows10</so>
+        </maquina>
+        <maquina>
+            <nombre>U3</nombre>
+            <so>Ubuntu20.04</so>
+        </maquina>
+    </nodo>
+    <nodo>
+        <nombre>Nodo4</nombre>
+        <direccion>192.168.4.1</direccion>
+        <maquina>
+            <nombre>W4</nombre>
+            <so>Windows10</so>
+        </maquina>
+        <maquina>
+            <nombre>U4</nombre>
+            <so>Ubuntu20.04</so>
+        </maquina>
+    </nodo>
+</cluster>
