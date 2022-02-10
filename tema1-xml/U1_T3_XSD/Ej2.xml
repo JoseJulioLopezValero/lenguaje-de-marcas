@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "Ej2.dtd">
+<Libro Catalogo="Catalogo 3">
+    <Titulo>Robinson Crusoe</Titulo>
+    <Seccion>Seccion 8</Seccion>
+    <Contenido>
+        <Capitulo materia="XML">
+            <Tema></Tema>
+        </Capitulo>
+        <Separacion></Separacion>
+    </Contenido>
+    <Copyright></Copyright>
+</Libro>

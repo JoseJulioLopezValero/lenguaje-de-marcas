@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<shiporder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ej4.xsd" orderid="string">
+    <orderperson>14</orderperson>
+    <shipto>
+        <name>Manuel</name>
+        <address>C/Real nº6</address>
+        <city>Sevilla</city>
+        <country>España</country>
+    </shipto>
+    <item>
+        <title>Tornillo</title>
+        <note>nº5</note>
+        <quantity>50</quantity>
+        <price>7.99</price>
+    </item>
+    <item>
+        <title>Tuerca</title>
+        <note>nº3</note>
+        <quantity>100</quantity>
+        <price>9.99</price>
+    </item>
+</shiporder>
