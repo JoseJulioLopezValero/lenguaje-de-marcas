@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE discos SYSTEM "Ejercicio5Externa.dtd"> 
+
+<discos>
+    <titulo>Du Hast</titulo>
+    <interprete>
+        <nombre>Till</nombre>
+        <apellidos>Lindemann</apellidos>
+        <rol>solista</rol>
+    </interprete>
+    <interprete>
+        <nombre>Richard</nombre>
+        <apellidos>Kruspe</apellidos>
+        <rol>Guitarra lider</rol>
+    </interprete>
+    <pistas>
+        <nombre_cancion>Mutter</nombre_cancion>
+        <duracion>4:29</duracion>
+    </pistas>
+    <pistas>
+        <nombre_cancion>Ich will</nombre_cancion>
+        <duracion>3:37</duracion>
+    </pistas>
+</discos>
