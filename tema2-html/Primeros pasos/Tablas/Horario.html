@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table, tr, td, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    
+    
+    <table>
+        <caption><b>Horario</b></caption>
+
+        <thead>
+            <tr>
+                <th>Horas</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:15-9:15</td>
+                <td rowspan="2">LM</td>
+                <td rowspan="2">SI</td>
+                <td>SI</td>
+                <td>SI</td>
+                <td rowspan="2">SI</td>
+            </tr>
+            <tr>
+                <td>9:15-10:15</td>
+                <td>ENDES</td>
+                <td rowspan="2">BD</td>
+            </tr>
+            <tr>
+                <td>10:15-11:15</td>
+                <td>BD</td>
+                <td>FOL</td>
+                <td>Prog</td>
+                <td>BD</td>
+            </tr>
+            <tr>
+                <td colspan="5">Recreo</td>
+            </tr>
+            <tr>
+                <td>11:45-12:45</td>
+                <td>BD</td>
+                <td>FOL</td>
+                <td rowspan="3">Prog</td>
+                <td>FOL</td>
+                <td>BD</td>
+            </tr>
+            <tr>
+                <td>12:45-13:45</td>
+                <td rowspan="2">ENDES</td>
+                <td rowspan="2">Prog</td>
+                <td rowspan="2">LM</td>
+                <td rowspan="2">Prog</td>
+            </tr>
+            <tr>
+                <td>13:45-14:45</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
