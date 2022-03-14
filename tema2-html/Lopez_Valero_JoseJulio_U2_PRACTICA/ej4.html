@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="4" style="border-color: blue;">
+        <tr>
+            <td>
+                <h1>Reservation Request</h1>
+                <form action="destination.html">
+                    <fieldset>
+                        <legend style="color: blue;"><b>General Informatio</b></legend>
+
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="A_date">Arrival date:</label>
+                                </td>
+                                <td>
+                                    <input type="date" name="A_date" id="A_date">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="nights">Nights</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="nights" id="Nights">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="adults">Adults:</label>
+                                </td>
+                                <td>
+                                    <select name="adults" id="adults">
+                                        <option value="adults">1</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="children">Children</label>
+                                </td>
+                                <td>
+                                    <select name="children" id="children">
+                                        <option value="children">0</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend style="color: blue;"><b>Preferences</b></legend>
+                        <Table>
+                            <tr>
+                                <td>
+                                    Room type:
+                                </td>
+                                <td>
+                                    <input type="radio" name="r_type" id="r_type">
+                                    <label for="r_type">Standard</label>
+                                </td>
+                                <td>
+                                    <input type="radio" name="r_type" id="r_type">
+                                    <label for="r_type">Business</label>
+                                </td>
+                                <td>
+                                    <input type="radio" name="r_type" id="r_type">
+                                    <label for="r_type">Suite</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Bed type:
+                                </td>
+                                <td>
+                                    <input type="radio" name="b_type" id="b_type">
+                                    <label for="b_type">King</label>
+                                </td>
+                                <td>
+                                    <input type="radio" name="b_type" id="b_type">
+                                    <label for="b_type">Double Double</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" name="Smoking" id="Smoking">
+                                    <label for="Smoking">Smoking</label>
+                                </td>
+                            </tr>
+
+                        </Table>
+                    </fieldset>
+                    <fieldset>
+                        <legend style="color: blue;"><b>Contact Information</b></legend>
+
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="name">Name:</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="name" id="name">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="email">Email:</label>
+                                </td>
+                                <td>
+                                    <input type="email" name="email" id="email">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="phone">Phone:</label>
+                                </td>
+                                <td>
+                                    <input type="tel" name="phone" id="phone">
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="submit" value="Submit Reservation">
+                            </td>
+                            <td>
+                                <input type="reset" value="Clear">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
