@@ -1,0 +1,10 @@
+La primera linea pone el color de fondo de la pagina en otro color
+La segunda cambia el color de letra de los encabezados con la etiqueta h1
+La tercera pone las lineas horizontales de color azul
+En la siguiente pone todos los parrafos con un tamaño de letra diferente al por defecto y les añade un margen
+En la siguiente cambia de color la fuente y cambia el tamaño del margen a todos los parrafos con la clase verse
+Luego con selectores cambia el color de la fuente a los links dependiendo de como interactues con ellos
+El primer selector lo pone de color verde cuando el link no ha sido visitado,
+el segundo lo pone de color amarillo cuando lo visitas,
+el tercero lo pone de color negro cuando pones el raton sobre el
+y el cuarto pone el enlace de color azul mientras lo estes pulsando
