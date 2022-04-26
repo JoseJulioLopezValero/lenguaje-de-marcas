@@ -1,0 +1,88 @@
+body {
+    background-color: lightgray;
+}
+
+.barra {
+    background-color: rgb(68, 66, 66);
+}
+
+.cosabarra {
+    display: inline-block;
+    padding: 20px;
+    width: 15%;
+    color: white;
+}
+
+.cuadroverde {
+    background-color: lightgreen;
+    height: 500px;
+    width: 80%;
+    margin: 100px auto;
+    position: relative;
+}
+
+ul{
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 10px;
+}
+
+.barralateral {
+    position: fixed;
+    left: 0px;
+    top: 25%;
+    border-style: solid;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 55%;
+    width: 75px;
+    margin: 5px;
+}
+.barralateral img{
+    margin-top: 2px;
+}
+figure{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px;
+    width: 20%;
+    font-size: smaller;
+}
+figure img{
+    width: 90%;
+}
+
+#foto1{
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 25%;
+    left: 20%;
+    z-index: 10;
+}
+#foto2{
+    position: absolute;
+    transform: rotate(45deg);
+    top: 30%;
+    left: 30%;
+    z-index: 8;
+}
+#foto3{
+    position: absolute;
+    transform: rotate(-20deg);
+    top: 30%;
+    left: 40%;
+    z-index: 6;
+}
+#foto4{
+    position: absolute;
+    transform: rotate(25deg);
+    top: 40%;
+    left: 50%;
+    z-index: 4;
+}
